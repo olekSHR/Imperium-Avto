@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperium Auto - Car Sales</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Imperium Auto</h1>
+        <p>Import Automobile</p>
+        <p>📞 0741 041 177</p>
+        <a href="https://wa.me/40741041177" class="whatsapp-button" target="_blank">WhatsApp</a>
+    </header>
+
+    <section id="cars">
+        <h2>Available Cars</h2>
+
+        <div class="car fade-in">
+            <div class="car-gallery">
+                <img src="car1-1.jpg" alt="VW Beetle Sport" onclick="openFullscreen(this)">
+                <img src="car1-2.jpg" alt="VW Beetle Sport" onclick="openFullscreen(this)">
+                <img src="car1-3.jpg" alt="VW Beetle Sport" onclick="openFullscreen(this)">
+            </div>
+            <div class="car-info">
+                <h3>VW BEETLE SPORT - 9.299€</h3>
+                <p>🚗 2012 | 2.0 TSI - 200 CP | Automatic DSG</p>
+                <p>📍 202,000 Km | Navigation</p>
+            </div>
+        </div>
+
+        <div class="car fade-in">
+            <div class="car-gallery">
+                <img src="car2-1.jpg" alt="Volkswagen Golf 7" onclick="openFullscreen(this)">
+                <img src="car2-2.jpg" alt="Volkswagen Golf 7" onclick="openFullscreen(this)">
+                <img src="car2-3.jpg" alt="Volkswagen Golf 7" onclick="openFullscreen(this)">
+            </div>
+            <div class="car-info">
+                <h3>Volkswagen Golf 7 - 10.899€</h3>
+                <p>🚗 2015 | 1.4 TSI | 150 CP | Automatic</p>
+                <p>📍 247,000 Km</p>
+            </div>
+        </div>
+
+        <div class="car fade-in">
+            <div class="car-gallery">
+                <img src="car3-1.jpg" alt="FORD C-MAX" onclick="openFullscreen(this)">
+                <img src="car3-2.jpg" alt="FORD C-MAX" onclick="openFullscreen(this)">
+                <img src="car3-3.jpg" alt="FORD C-MAX" onclick="openFullscreen(this)">
+            </div>
+            <div class="car-info">
+                <h3>FORD C-MAX - 6.299€</h3>
+                <p>🚗 2016 | 1.0 ECO BOOST | Manual</p>
+                <p>📍 175,000 Km</p>
+            </div>
+        </div>
+
+        <div class="car fade-in">
+            <div class="car-gallery">
+                <img src="car4-1.jpg" alt="Mercedes Benz E300" onclick="openFullscreen(this)">
+                <img src="car4-2.jpg" alt="Mercedes Benz E300" onclick="openFullscreen(this)">
+                <img src="car4-3.jpg" alt="Mercedes Benz E300" onclick="openFullscreen(this)">
+            </div>
+            <div class="car-info">
+                <h3>MERCEDES BENZ E300 W212 - 12.999€</h3>
+                <p>🚗 2010 | 3.0 CDI 204 CP - Automatic</p>
+                <p>📍 208,000 Km</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Imperium Auto - All Rights Reserved</p>
+    </footer>
+
+    <div id="fullscreen-view" onclick="closeFullscreen()">
+        <img id="fullscreen-img" src="" alt="Car Image">
+    </div>
+</body>
+</html>
